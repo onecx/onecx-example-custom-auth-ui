@@ -27,7 +27,7 @@
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "sonar-scanner": "^3.1.0",
-    "zone.js": "~0.11.0"
+    "zone.js": "~0.15.1"
   },
   "devDependencies": {
     "@nx/jest": "17.3.1",
