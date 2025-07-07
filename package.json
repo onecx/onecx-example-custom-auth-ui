@@ -14,6 +14,7 @@
     "build": "nx run custom-auth:build --verbose",
     "test": "nx test",
     "lint": "nx lint",
+    "test:ci": "nx test --watch=false --browsers=ChromeHeadless --coverage",
     "apigen-cleanup": "rm -rf $npm_package_config_openapiOutput",
     "apigen-format": "npx prettier $npm_package_config_openapiYaml --write && npx prettier $npm_package_config_openapiOutput/**/* --write",
     "apigen-generate": "openapi-generator-cli generate -i $npm_package_config_openapiYaml -g typescript-fetch -c apigen.yaml -o $npm_package_config_openapiOutput --type-mappings=AnyType=object,set=Array",
