@@ -11,11 +11,8 @@
     },
     {
       "files": ["*.ts"],
-      "extends": [
-        "plugin:@nx/angular",
-      ],
-      "rules": {
-      }
+      "extends": ["plugin:@nx/angular"],
+      "rules": {}
     },
     {
       "files": ["*.html"],

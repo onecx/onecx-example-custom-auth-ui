@@ -12,11 +12,11 @@ comes with a LSP for Vim users.
 
 ## Start the application
 
-Run `npx nx serve onecx-custom-auth` to start the development server. Happy coding!
+Run `npx nx serve onecx-example-custom-auth-ui` to start the development server. Happy coding!
 
 ## Build for production
 
-Run `npx nx build onecx-custom-auth` to build the application. The build artifacts are stored in the output directory (e.g. `dist/` or `build/`), ready to be deployed.
+Run `npx nx build onecx-example-custom-auth-ui` to build the application. The build artifacts are stored in the output directory (e.g. `dist/` or `build/`), ready to be deployed.
 
 ## Running tasks
 
