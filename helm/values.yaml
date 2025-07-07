@@ -1,0 +1,25 @@
+app:
+  name: ui
+  image:
+    repository: 'onecx/onecx-example-custom-auth-ui'
+  routing:
+    enabled: true
+    path: /mfe/example/
+  operator:
+    # Microfrontend
+    microfrontend:
+      enabled: true
+      specs:
+        main:
+          exposedModule: "./CustomAuth"
+          description: "OneCX Example Custom Auth UI"
+          note: "OneCX Custom Auth UI auto import via MF operator"
+          type: MODULE
+          technology: WEBCOMPONENTMODULE
+          remoteName: onecx-example-custom-auth
+          tagName: ocx-example-custom-auth-component
+    # Microservice
+    microservice:
+      spec:
+        name: OneCX Example Custom Auth UI
+        description: OneCX Example Custom Auth Frontend
