@@ -1,8 +1,8 @@
 /* eslint-disable */
 export default {
-  displayName: 'onecx-custom-auth',
+  displayName: 'onecx-example-custom-auth-ui',
   preset: './jest.preset.js',
-  coverageDirectory: './coverage/onecx-custom-auth',
+  coverageDirectory: './coverage/onecx-example-custom-auth-ui',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

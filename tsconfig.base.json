@@ -14,7 +14,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@onecx-custom-auth/custom-auth": ["custom-auth/src/index.ts"]
+      "@onecx-example-custom-auth-ui/custom-auth": ["custom-auth/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
