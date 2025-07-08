@@ -22,7 +22,7 @@
     "sonar": "sonar-scanner"
   },
   "dependencies": {
-    "@ngx-translate/core": "^15.0.0",
+    "@ngx-translate/core": "^16.0.4",
     "@nx/angular": "19.8.2",
     "@openapitools/openapi-generator-cli": "^2.6.0",
     "@nx/webpack": "^17.3.2",
