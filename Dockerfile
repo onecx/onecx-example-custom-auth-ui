@@ -10,4 +10,4 @@ COPY dist/ $DIR_HTML
 
 # Application environments default values
 ENV APP_BASE_HREF /mfe/example
-ENV BFF_URL http://onecx-example-custom-auth-bff:8080/
+ENV BFF_URL http://onecx-example-bff:8080/
