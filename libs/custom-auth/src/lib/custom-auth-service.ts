@@ -32,7 +32,9 @@ export class CustomAuthService implements AuthService {
           new URL(
             localStorage.getItem('logoutRedirectUrl') ?? '/',
             window.origin
-          ).searchParams.get('idmId') ?? undefined,
+          ).searchParams.get('idmId') ??
+          localStorage.getItem('idmId') ??
+          undefined,
       },
     });
 
